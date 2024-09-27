@@ -1,0 +1,10 @@
+#sql quary
+CREATE DATABASE pharmacy_dp;
+USE pharmacy_dp;
+show table;
+CREATE TABLE medicine(medicine_name VARCHAR(30),category VARCHAR(30), price INT(10),stock INT(10));
+describe medicine;
+select * from medicine;
+
+
+
